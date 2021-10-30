@@ -204,12 +204,9 @@ string create56(){
 				char sym1=')';
 				if(i==1&&len0>2)
 				s+=sym0;
-				
 				string num1=Transform_Double_String(Double_Rand10000());
 				s=s.append(num1);if(i==2)
-				s+=sym1;}
-				
-								
+				s+=sym1;}						
 			}
 	return s;
 }
